@@ -1,9 +1,11 @@
 Guessing Game and Base Conversion(Lab 4)
+
 Number Guessing Game
 User picks a number between 1 and 100. Then computer tries to guess that number. Computer
 makes guesses until it finds the number user picked. If the cmputer's guess is wrong, user should
 provide the information of if the number is bigger or smaller than computer's guess. Output of the
 application should be like below when user picks 42. Write the Guess Game Java application.
+
 ---------------------------------------------------------------------------------
 -  Guessing: 50 (0:right guess 1:my number is lower 2:my number is higher) : 1	-
 -  Guessing: 25 (0:right guess 1:my number is lower 2:my number is higher) : 2	-
@@ -11,9 +13,11 @@ application should be like below when user picks 42. Write the Guess Game Java a
 -  Guessing: 43 (0:right guess 1:my number is lower 2:my number is higher) : 1	-
 -  Guessing: 40 (0:right guess 1:my number is lower 2:my number is higher) : 2	-
 -  Guessing: 41 (0:right guess 1:my number is lower 2:my number is higher) : 2	-
--  Guessing: 42 (0:right guess 1:my number is lower 2:my number is higher) : 0	*
+-  Guessing: 42 (0:right guess 1:my number is lower 2:my number is higher) : 0  -
+
 ---------------------------------------------------------------------------------
 Computer guessed 42 at 7 steps...
+
 //Guess game pseudo code
 Define lower and upper bounds
 Set lower bound to zero and upper bound to hundred
@@ -57,3 +61,4 @@ A base 2 number a is combined from digits (anan-1...a1a0)(2), equals to (a020+a1
 Optional
 user.
 Write the conversion code from base 10 to base n and vice versa. n value can be entered by
+
